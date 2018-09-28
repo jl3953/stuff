@@ -1,0 +1,609 @@
+Connecting to host bouygues.testdebit.info, port 5202
+[  6] local 10.9.65.13 port 49301 connected to 89.84.1.222 port 5202
+[ ID] Interval           Transfer     Bandwidth
+[  6]   0.00-1.00   sec  4.32 MBytes  36.2 Mbits/sec                  
+[  6]   1.00-2.00   sec  4.78 MBytes  40.1 Mbits/sec                  
+[  6]   2.00-3.00   sec  11.6 MBytes  97.5 Mbits/sec                  
+[  6]   3.00-4.00   sec  12.1 MBytes   102 Mbits/sec                  
+[  6]   4.00-5.00   sec  12.3 MBytes   103 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  6]   0.00-5.00   sec  45.2 MBytes  75.8 Mbits/sec                  sender
+[  6]   0.00-5.00   sec  45.2 MBytes  75.8 Mbits/sec                  receiver
+
+iperf Done.
+rc: [0] for command: [./iperf3 -c bouygues.testdebit.info -p 5202 -t 5 -P 1]
+Connecting to host bouygues.testdebit.info, port 5202
+[  6] local 10.9.65.13 port 49303 connected to 89.84.1.222 port 5202
+[  8] local 10.9.65.13 port 49304 connected to 89.84.1.222 port 5202
+[ ID] Interval           Transfer     Bandwidth
+[  6]   0.00-1.00   sec  3.61 MBytes  30.3 Mbits/sec                  
+[  8]   0.00-1.00   sec  3.48 MBytes  29.2 Mbits/sec                  
+[SUM]   0.00-1.00   sec  7.09 MBytes  59.5 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  6]   1.00-2.00   sec  11.5 MBytes  96.9 Mbits/sec                  
+[  8]   1.00-2.00   sec  11.1 MBytes  93.2 Mbits/sec                  
+[SUM]   1.00-2.00   sec  22.7 MBytes   190 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  6]   2.00-3.00   sec  9.25 MBytes  77.5 Mbits/sec                  
+[  8]   2.00-3.00   sec  9.40 MBytes  78.8 Mbits/sec                  
+[SUM]   2.00-3.00   sec  18.7 MBytes   156 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  6]   3.00-4.00   sec  11.6 MBytes  97.5 Mbits/sec                  
+[  8]   3.00-4.00   sec  11.4 MBytes  95.7 Mbits/sec                  
+[SUM]   3.00-4.00   sec  23.0 MBytes   193 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  6]   4.00-5.00   sec  4.68 MBytes  39.3 Mbits/sec                  
+[  8]   4.00-5.00   sec  5.72 MBytes  48.0 Mbits/sec                  
+[SUM]   4.00-5.00   sec  10.4 MBytes  87.3 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  6]   0.00-5.00   sec  40.7 MBytes  68.3 Mbits/sec                  sender
+[  6]   0.00-5.00   sec  39.9 MBytes  66.9 Mbits/sec                  receiver
+[  8]   0.00-5.00   sec  41.1 MBytes  69.0 Mbits/sec                  sender
+[  8]   0.00-5.00   sec  41.1 MBytes  69.0 Mbits/sec                  receiver
+[SUM]   0.00-5.00   sec  81.8 MBytes   137 Mbits/sec                  sender
+[SUM]   0.00-5.00   sec  81.0 MBytes   136 Mbits/sec                  receiver
+
+iperf Done.
+rc: [0] for command: [./iperf3 -c bouygues.testdebit.info -p 5202 -t 5 -P 2]
+Connecting to host bouygues.testdebit.info, port 5202
+[  6] local 10.9.65.13 port 49306 connected to 89.84.1.222 port 5202
+[  8] local 10.9.65.13 port 49307 connected to 89.84.1.222 port 5202
+[ 10] local 10.9.65.13 port 49308 connected to 89.84.1.222 port 5202
+[ ID] Interval           Transfer     Bandwidth
+[  6]   0.00-1.00   sec  3.55 MBytes  29.7 Mbits/sec                  
+[  8]   0.00-1.00   sec  3.42 MBytes  28.7 Mbits/sec                  
+[ 10]   0.00-1.00   sec  3.33 MBytes  27.9 Mbits/sec                  
+[SUM]   0.00-1.00   sec  10.3 MBytes  86.4 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  6]   1.00-2.00   sec  8.95 MBytes  75.1 Mbits/sec                  
+[  8]   1.00-2.00   sec  8.23 MBytes  69.1 Mbits/sec                  
+[ 10]   1.00-2.00   sec  8.39 MBytes  70.4 Mbits/sec                  
+[SUM]   1.00-2.00   sec  25.6 MBytes   215 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  6]   2.00-3.00   sec  8.82 MBytes  74.0 Mbits/sec                  
+[  8]   2.00-3.00   sec  8.34 MBytes  70.0 Mbits/sec                  
+[ 10]   2.00-3.00   sec  8.63 MBytes  72.4 Mbits/sec                  
+[SUM]   2.00-3.00   sec  25.8 MBytes   216 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  6]   3.00-4.00   sec  8.67 MBytes  72.7 Mbits/sec                  
+[  8]   3.00-4.00   sec  8.81 MBytes  73.8 Mbits/sec                  
+[ 10]   3.00-4.00   sec  8.61 MBytes  72.2 Mbits/sec                  
+[SUM]   3.00-4.00   sec  26.1 MBytes   219 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  6]   4.00-5.00   sec  8.90 MBytes  74.7 Mbits/sec                  
+[  8]   4.00-5.00   sec  8.94 MBytes  74.9 Mbits/sec                  
+[ 10]   4.00-5.00   sec  8.56 MBytes  71.8 Mbits/sec                  
+[SUM]   4.00-5.00   sec  26.4 MBytes   221 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  6]   0.00-5.00   sec  38.9 MBytes  65.2 Mbits/sec                  sender
+[  6]   0.00-5.00   sec  38.9 MBytes  65.2 Mbits/sec                  receiver
+[  8]   0.00-5.00   sec  37.7 MBytes  63.3 Mbits/sec                  sender
+[  8]   0.00-5.00   sec  37.7 MBytes  63.3 Mbits/sec                  receiver
+[ 10]   0.00-5.00   sec  37.5 MBytes  63.0 Mbits/sec                  sender
+[ 10]   0.00-5.00   sec  37.5 MBytes  63.0 Mbits/sec                  receiver
+[SUM]   0.00-5.00   sec   114 MBytes   191 Mbits/sec                  sender
+[SUM]   0.00-5.00   sec   114 MBytes   191 Mbits/sec                  receiver
+
+iperf Done.
+rc: [0] for command: [./iperf3 -c bouygues.testdebit.info -p 5202 -t 5 -P 3]
+Connecting to host bouygues.testdebit.info, port 5202
+[  6] local 10.9.65.13 port 49319 connected to 89.84.1.222 port 5202
+[  8] local 10.9.65.13 port 49320 connected to 89.84.1.222 port 5202
+[ 10] local 10.9.65.13 port 49321 connected to 89.84.1.222 port 5202
+[ 12] local 10.9.65.13 port 49322 connected to 89.84.1.222 port 5202
+[ ID] Interval           Transfer     Bandwidth
+[  6]   0.00-1.00   sec  3.68 MBytes  30.8 Mbits/sec                  
+[  8]   0.00-1.00   sec  2.70 MBytes  22.6 Mbits/sec                  
+[ 10]   0.00-1.00   sec  2.68 MBytes  22.4 Mbits/sec                  
+[ 12]   0.00-1.00   sec  1.88 MBytes  15.7 Mbits/sec                  
+[SUM]   0.00-1.00   sec  11.0 MBytes  91.5 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  6]   1.00-2.00   sec  7.21 MBytes  60.7 Mbits/sec                  
+[  8]   1.00-2.00   sec  7.34 MBytes  61.8 Mbits/sec                  
+[ 10]   1.00-2.00   sec  7.18 MBytes  60.4 Mbits/sec                  
+[ 12]   1.00-2.00   sec  4.77 MBytes  40.1 Mbits/sec                  
+[SUM]   1.00-2.00   sec  26.5 MBytes   223 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  6]   2.00-3.00   sec  5.80 MBytes  48.7 Mbits/sec                  
+[  8]   2.00-3.00   sec  6.46 MBytes  54.2 Mbits/sec                  
+[ 10]   2.00-3.00   sec  7.12 MBytes  59.7 Mbits/sec                  
+[ 12]   2.00-3.00   sec  5.89 MBytes  49.4 Mbits/sec                  
+[SUM]   2.00-3.00   sec  25.3 MBytes   212 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  6]   3.00-4.00   sec  7.48 MBytes  62.8 Mbits/sec                  
+[  8]   3.00-4.00   sec  5.48 MBytes  46.0 Mbits/sec                  
+[ 10]   3.00-4.00   sec  6.86 MBytes  57.6 Mbits/sec                  
+[ 12]   3.00-4.00   sec  6.45 MBytes  54.1 Mbits/sec                  
+[SUM]   3.00-4.00   sec  26.3 MBytes   221 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  6]   4.00-5.00   sec  6.20 MBytes  52.0 Mbits/sec                  
+[  8]   4.00-5.00   sec  6.19 MBytes  51.9 Mbits/sec                  
+[ 10]   4.00-5.00   sec  6.72 MBytes  56.4 Mbits/sec                  
+[ 12]   4.00-5.00   sec  5.94 MBytes  49.8 Mbits/sec                  
+[SUM]   4.00-5.00   sec  25.1 MBytes   210 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  6]   0.00-5.00   sec  30.4 MBytes  51.0 Mbits/sec                  sender
+[  6]   0.00-5.00   sec  30.4 MBytes  51.0 Mbits/sec                  receiver
+[  8]   0.00-5.00   sec  28.2 MBytes  47.3 Mbits/sec                  sender
+[  8]   0.00-5.00   sec  28.2 MBytes  47.3 Mbits/sec                  receiver
+[ 10]   0.00-5.00   sec  30.6 MBytes  51.3 Mbits/sec                  sender
+[ 10]   0.00-5.00   sec  30.6 MBytes  51.3 Mbits/sec                  receiver
+[ 12]   0.00-5.00   sec  24.9 MBytes  41.8 Mbits/sec                  sender
+[ 12]   0.00-5.00   sec  24.9 MBytes  41.8 Mbits/sec                  receiver
+[SUM]   0.00-5.00   sec   114 MBytes   191 Mbits/sec                  sender
+[SUM]   0.00-5.00   sec   114 MBytes   191 Mbits/sec                  receiver
+
+iperf Done.
+rc: [0] for command: [./iperf3 -c bouygues.testdebit.info -p 5202 -t 5 -P 4]
+Connecting to host bouygues.testdebit.info, port 5202
+[  6] local 10.9.65.13 port 49324 connected to 89.84.1.222 port 5202
+[  8] local 10.9.65.13 port 49325 connected to 89.84.1.222 port 5202
+[ 10] local 10.9.65.13 port 49326 connected to 89.84.1.222 port 5202
+[ 12] local 10.9.65.13 port 49328 connected to 89.84.1.222 port 5202
+[ 14] local 10.9.65.13 port 49329 connected to 89.84.1.222 port 5202
+[ ID] Interval           Transfer     Bandwidth
+[  6]   0.00-1.00   sec  2.86 MBytes  23.9 Mbits/sec                  
+[  8]   0.00-1.00   sec  2.62 MBytes  21.9 Mbits/sec                  
+[ 10]   0.00-1.00   sec  2.62 MBytes  21.9 Mbits/sec                  
+[ 12]   0.00-1.00   sec  2.62 MBytes  21.9 Mbits/sec                  
+[ 14]   0.00-1.00   sec  3.12 MBytes  26.1 Mbits/sec                  
+[SUM]   0.00-1.00   sec  13.8 MBytes   116 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  6]   1.00-2.00   sec  5.64 MBytes  47.4 Mbits/sec                  
+[  8]   1.00-2.00   sec  6.21 MBytes  52.2 Mbits/sec                  
+[ 10]   1.00-2.00   sec  4.46 MBytes  37.5 Mbits/sec                  
+[ 12]   1.00-2.00   sec  5.29 MBytes  44.5 Mbits/sec                  
+[ 14]   1.00-2.00   sec  5.13 MBytes  43.2 Mbits/sec                  
+[SUM]   1.00-2.00   sec  26.7 MBytes   225 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  6]   2.00-3.00   sec  6.06 MBytes  50.8 Mbits/sec                  
+[  8]   2.00-3.00   sec  5.62 MBytes  47.1 Mbits/sec                  
+[ 10]   2.00-3.00   sec  5.36 MBytes  44.9 Mbits/sec                  
+[ 12]   2.00-3.00   sec  2.55 MBytes  21.4 Mbits/sec                  
+[ 14]   2.00-3.00   sec  4.78 MBytes  40.1 Mbits/sec                  
+[SUM]   2.00-3.00   sec  24.4 MBytes   204 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  6]   3.00-4.00   sec  8.23 MBytes  69.2 Mbits/sec                  
+[  8]   3.00-4.00   sec  2.91 MBytes  24.4 Mbits/sec                  
+[ 10]   3.00-4.00   sec  2.64 MBytes  22.2 Mbits/sec                  
+[ 12]   3.00-4.00   sec  3.35 MBytes  28.1 Mbits/sec                  
+[ 14]   3.00-4.00   sec  8.04 MBytes  67.6 Mbits/sec                  
+[SUM]   3.00-4.00   sec  25.2 MBytes   211 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  6]   4.00-5.00   sec  7.63 MBytes  63.8 Mbits/sec                  
+[  8]   4.00-5.00   sec  5.10 MBytes  42.6 Mbits/sec                  
+[ 10]   4.00-5.00   sec  2.95 MBytes  24.7 Mbits/sec                  
+[ 12]   4.00-5.00   sec  1.84 MBytes  15.4 Mbits/sec                  
+[ 14]   4.00-5.00   sec  8.00 MBytes  66.9 Mbits/sec                  
+[SUM]   4.00-5.00   sec  25.5 MBytes   213 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  6]   0.00-5.00   sec  30.4 MBytes  51.0 Mbits/sec                  sender
+[  6]   0.00-5.00   sec  30.4 MBytes  51.0 Mbits/sec                  receiver
+[  8]   0.00-5.00   sec  22.5 MBytes  37.6 Mbits/sec                  sender
+[  8]   0.00-5.00   sec  22.5 MBytes  37.6 Mbits/sec                  receiver
+[ 10]   0.00-5.00   sec  18.0 MBytes  30.2 Mbits/sec                  sender
+[ 10]   0.00-5.00   sec  17.7 MBytes  29.6 Mbits/sec                  receiver
+[ 12]   0.00-5.00   sec  15.6 MBytes  26.2 Mbits/sec                  sender
+[ 12]   0.00-5.00   sec  15.2 MBytes  25.4 Mbits/sec                  receiver
+[ 14]   0.00-5.00   sec  29.1 MBytes  48.8 Mbits/sec                  sender
+[ 14]   0.00-5.00   sec  29.1 MBytes  48.7 Mbits/sec                  receiver
+[SUM]   0.00-5.00   sec   116 MBytes   194 Mbits/sec                  sender
+[SUM]   0.00-5.00   sec   115 MBytes   192 Mbits/sec                  receiver
+
+iperf Done.
+rc: [0] for command: [./iperf3 -c bouygues.testdebit.info -p 5202 -t 5 -P 5]
+Connecting to host bouygues.testdebit.info, port 5202
+[  6] local 10.9.65.13 port 49332 connected to 89.84.1.222 port 5202
+[  8] local 10.9.65.13 port 49333 connected to 89.84.1.222 port 5202
+[ 10] local 10.9.65.13 port 49334 connected to 89.84.1.222 port 5202
+[ 12] local 10.9.65.13 port 49335 connected to 89.84.1.222 port 5202
+[ 14] local 10.9.65.13 port 49336 connected to 89.84.1.222 port 5202
+[ 16] local 10.9.65.13 port 49337 connected to 89.84.1.222 port 5202
+[ ID] Interval           Transfer     Bandwidth
+[  6]   0.00-1.00   sec  3.22 MBytes  27.0 Mbits/sec                  
+[  8]   0.00-1.00   sec  2.61 MBytes  21.9 Mbits/sec                  
+[ 10]   0.00-1.00   sec  2.36 MBytes  19.8 Mbits/sec                  
+[ 12]   0.00-1.00   sec  2.64 MBytes  22.1 Mbits/sec                  
+[ 14]   0.00-1.00   sec  2.44 MBytes  20.4 Mbits/sec                  
+[ 16]   0.00-1.00   sec  2.22 MBytes  18.6 Mbits/sec                  
+[SUM]   0.00-1.00   sec  15.5 MBytes   130 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  6]   1.00-2.00   sec  4.58 MBytes  38.4 Mbits/sec                  
+[  8]   1.00-2.00   sec  4.39 MBytes  36.8 Mbits/sec                  
+[ 10]   1.00-2.00   sec  4.21 MBytes  35.3 Mbits/sec                  
+[ 12]   1.00-2.00   sec  3.52 MBytes  29.5 Mbits/sec                  
+[ 14]   1.00-2.00   sec  3.10 MBytes  26.0 Mbits/sec                  
+[ 16]   1.00-2.00   sec  4.18 MBytes  35.1 Mbits/sec                  
+[SUM]   1.00-2.00   sec  24.0 MBytes   201 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  6]   2.00-3.00   sec  5.55 MBytes  46.5 Mbits/sec                  
+[  8]   2.00-3.00   sec  4.33 MBytes  36.3 Mbits/sec                  
+[ 10]   2.00-3.00   sec  3.83 MBytes  32.1 Mbits/sec                  
+[ 12]   2.00-3.00   sec  2.80 MBytes  23.5 Mbits/sec                  
+[ 14]   2.00-3.00   sec  4.22 MBytes  35.4 Mbits/sec                  
+[ 16]   2.00-3.00   sec  4.76 MBytes  39.9 Mbits/sec                  
+[SUM]   2.00-3.00   sec  25.5 MBytes   214 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  6]   3.00-4.00   sec  5.24 MBytes  44.0 Mbits/sec                  
+[  8]   3.00-4.00   sec  4.43 MBytes  37.2 Mbits/sec                  
+[ 10]   3.00-4.00   sec  3.55 MBytes  29.8 Mbits/sec                  
+[ 12]   3.00-4.00   sec  3.07 MBytes  25.8 Mbits/sec                  
+[ 14]   3.00-4.00   sec  4.87 MBytes  40.9 Mbits/sec                  
+[ 16]   3.00-4.00   sec  4.90 MBytes  41.1 Mbits/sec                  
+[SUM]   3.00-4.00   sec  26.1 MBytes   219 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  6]   4.00-5.00   sec  5.13 MBytes  42.9 Mbits/sec                  
+[  8]   4.00-5.00   sec  4.99 MBytes  41.8 Mbits/sec                  
+[ 10]   4.00-5.00   sec  4.00 MBytes  33.5 Mbits/sec                  
+[ 12]   4.00-5.00   sec  3.82 MBytes  31.9 Mbits/sec                  
+[ 14]   4.00-5.00   sec  4.72 MBytes  39.5 Mbits/sec                  
+[ 16]   4.00-5.00   sec  4.59 MBytes  38.4 Mbits/sec                  
+[SUM]   4.00-5.00   sec  27.3 MBytes   228 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  6]   0.00-5.00   sec  23.7 MBytes  39.8 Mbits/sec                  sender
+[  6]   0.00-5.00   sec  23.2 MBytes  38.9 Mbits/sec                  receiver
+[  8]   0.00-5.00   sec  20.8 MBytes  34.8 Mbits/sec                  sender
+[  8]   0.00-5.00   sec  19.8 MBytes  33.1 Mbits/sec                  receiver
+[ 10]   0.00-5.00   sec  17.9 MBytes  30.1 Mbits/sec                  sender
+[ 10]   0.00-5.00   sec  17.5 MBytes  29.3 Mbits/sec                  receiver
+[ 12]   0.00-5.00   sec  15.8 MBytes  26.6 Mbits/sec                  sender
+[ 12]   0.00-5.00   sec  14.8 MBytes  24.9 Mbits/sec                  receiver
+[ 14]   0.00-5.00   sec  19.3 MBytes  32.4 Mbits/sec                  sender
+[ 14]   0.00-5.00   sec  18.8 MBytes  31.6 Mbits/sec                  receiver
+[ 16]   0.00-5.00   sec  20.6 MBytes  34.6 Mbits/sec                  sender
+[ 16]   0.00-5.00   sec  19.9 MBytes  33.4 Mbits/sec                  receiver
+[SUM]   0.00-5.00   sec   118 MBytes   198 Mbits/sec                  sender
+[SUM]   0.00-5.00   sec   114 MBytes   191 Mbits/sec                  receiver
+
+iperf Done.
+rc: [0] for command: [./iperf3 -c bouygues.testdebit.info -p 5202 -t 5 -P 6]
+Connecting to host bouygues.testdebit.info, port 5202
+[  6] local 10.9.65.13 port 49339 connected to 89.84.1.222 port 5202
+[  8] local 10.9.65.13 port 49340 connected to 89.84.1.222 port 5202
+[ 10] local 10.9.65.13 port 49341 connected to 89.84.1.222 port 5202
+[ 12] local 10.9.65.13 port 49342 connected to 89.84.1.222 port 5202
+[ 14] local 10.9.65.13 port 49343 connected to 89.84.1.222 port 5202
+[ 16] local 10.9.65.13 port 49344 connected to 89.84.1.222 port 5202
+[ 18] local 10.9.65.13 port 49345 connected to 89.84.1.222 port 5202
+[ ID] Interval           Transfer     Bandwidth
+[  6]   0.00-1.00   sec  2.82 MBytes  23.6 Mbits/sec                  
+[  8]   0.00-1.00   sec  2.30 MBytes  19.3 Mbits/sec                  
+[ 10]   0.00-1.00   sec  2.47 MBytes  20.7 Mbits/sec                  
+[ 12]   0.00-1.00   sec  1.65 MBytes  13.8 Mbits/sec                  
+[ 14]   0.00-1.00   sec  1.69 MBytes  14.2 Mbits/sec                  
+[ 16]   0.00-1.00   sec  2.83 MBytes  23.7 Mbits/sec                  
+[ 18]   0.00-1.00   sec  1.99 MBytes  16.7 Mbits/sec                  
+[SUM]   0.00-1.00   sec  15.7 MBytes   132 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  6]   1.00-2.00   sec  4.57 MBytes  38.4 Mbits/sec                  
+[  8]   1.00-2.00   sec  3.47 MBytes  29.1 Mbits/sec                  
+[ 10]   1.00-2.00   sec  4.23 MBytes  35.5 Mbits/sec                  
+[ 12]   1.00-2.00   sec  3.74 MBytes  31.4 Mbits/sec                  
+[ 14]   1.00-2.00   sec  2.61 MBytes  21.9 Mbits/sec                  
+[ 16]   1.00-2.00   sec  4.25 MBytes  35.7 Mbits/sec                  
+[ 18]   1.00-2.00   sec  2.77 MBytes  23.2 Mbits/sec                  
+[SUM]   1.00-2.00   sec  25.6 MBytes   215 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  6]   2.00-3.00   sec  4.05 MBytes  34.0 Mbits/sec                  
+[  8]   2.00-3.00   sec  4.41 MBytes  37.0 Mbits/sec                  
+[ 10]   2.00-3.00   sec  3.12 MBytes  26.2 Mbits/sec                  
+[ 12]   2.00-3.00   sec  3.43 MBytes  28.8 Mbits/sec                  
+[ 14]   2.00-3.00   sec  4.05 MBytes  33.9 Mbits/sec                  
+[ 16]   2.00-3.00   sec  2.53 MBytes  21.2 Mbits/sec                  
+[ 18]   2.00-3.00   sec  2.19 MBytes  18.4 Mbits/sec                  
+[SUM]   2.00-3.00   sec  23.8 MBytes   199 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  6]   3.00-4.00   sec  1.64 MBytes  13.8 Mbits/sec                  
+[  8]   3.00-4.00   sec  7.17 MBytes  60.2 Mbits/sec                  
+[ 10]   3.00-4.00   sec  3.43 MBytes  28.8 Mbits/sec                  
+[ 12]   3.00-4.00   sec  2.98 MBytes  25.0 Mbits/sec                  
+[ 14]   3.00-4.00   sec  7.23 MBytes  60.7 Mbits/sec                  
+[ 16]   3.00-4.00   sec  1.41 MBytes  11.8 Mbits/sec                  
+[ 18]   3.00-4.00   sec  1.84 MBytes  15.4 Mbits/sec                  
+[SUM]   3.00-4.00   sec  25.7 MBytes   216 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  6]   4.00-5.00   sec  4.55 MBytes  38.2 Mbits/sec                  
+[  8]   4.00-5.00   sec  4.79 MBytes  40.2 Mbits/sec                  
+[ 10]   4.00-5.00   sec  3.84 MBytes  32.2 Mbits/sec                  
+[ 12]   4.00-5.00   sec  3.24 MBytes  27.1 Mbits/sec                  
+[ 14]   4.00-5.00   sec  4.26 MBytes  35.7 Mbits/sec                  
+[ 16]   4.00-5.00   sec  4.19 MBytes  35.1 Mbits/sec                  
+[ 18]   4.00-5.00   sec  2.56 MBytes  21.5 Mbits/sec                  
+[SUM]   4.00-5.00   sec  27.4 MBytes   230 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  6]   0.00-5.00   sec  17.6 MBytes  29.6 Mbits/sec                  sender
+[  6]   0.00-5.00   sec  17.4 MBytes  29.3 Mbits/sec                  receiver
+[  8]   0.00-5.00   sec  22.1 MBytes  37.1 Mbits/sec                  sender
+[  8]   0.00-5.00   sec  22.1 MBytes  37.1 Mbits/sec                  receiver
+[ 10]   0.00-5.00   sec  17.1 MBytes  28.7 Mbits/sec                  sender
+[ 10]   0.00-5.00   sec  16.9 MBytes  28.3 Mbits/sec                  receiver
+[ 12]   0.00-5.00   sec  15.0 MBytes  25.2 Mbits/sec                  sender
+[ 12]   0.00-5.00   sec  14.8 MBytes  24.8 Mbits/sec                  receiver
+[ 14]   0.00-5.00   sec  19.8 MBytes  33.3 Mbits/sec                  sender
+[ 14]   0.00-5.00   sec  19.8 MBytes  33.3 Mbits/sec                  receiver
+[ 16]   0.00-5.00   sec  15.2 MBytes  25.5 Mbits/sec                  sender
+[ 16]   0.00-5.00   sec  15.1 MBytes  25.4 Mbits/sec                  receiver
+[ 18]   0.00-5.00   sec  11.4 MBytes  19.0 Mbits/sec                  sender
+[ 18]   0.00-5.00   sec  10.9 MBytes  18.3 Mbits/sec                  receiver
+[SUM]   0.00-5.00   sec   118 MBytes   198 Mbits/sec                  sender
+[SUM]   0.00-5.00   sec   117 MBytes   196 Mbits/sec                  receiver
+
+iperf Done.
+rc: [0] for command: [./iperf3 -c bouygues.testdebit.info -p 5202 -t 5 -P 7]
+Connecting to host bouygues.testdebit.info, port 5202
+[  6] local 10.9.65.13 port 49350 connected to 89.84.1.222 port 5202
+[  8] local 10.9.65.13 port 49351 connected to 89.84.1.222 port 5202
+[ 10] local 10.9.65.13 port 49352 connected to 89.84.1.222 port 5202
+[ 12] local 10.9.65.13 port 49353 connected to 89.84.1.222 port 5202
+[ 14] local 10.9.65.13 port 49354 connected to 89.84.1.222 port 5202
+[ 16] local 10.9.65.13 port 49355 connected to 89.84.1.222 port 5202
+[ 18] local 10.9.65.13 port 49356 connected to 89.84.1.222 port 5202
+[ 20] local 10.9.65.13 port 49357 connected to 89.84.1.222 port 5202
+[ ID] Interval           Transfer     Bandwidth
+[  6]   0.00-1.00   sec  2.30 MBytes  19.3 Mbits/sec                  
+[  8]   0.00-1.00   sec  2.26 MBytes  18.9 Mbits/sec                  
+[ 10]   0.00-1.00   sec  1.90 MBytes  15.9 Mbits/sec                  
+[ 12]   0.00-1.00   sec  1.72 MBytes  14.4 Mbits/sec                  
+[ 14]   0.00-1.00   sec  2.35 MBytes  19.7 Mbits/sec                  
+[ 16]   0.00-1.00   sec  2.36 MBytes  19.8 Mbits/sec                  
+[ 18]   0.00-1.00   sec  1.86 MBytes  15.6 Mbits/sec                  
+[ 20]   0.00-1.00   sec  2.23 MBytes  18.7 Mbits/sec                  
+[SUM]   0.00-1.00   sec  17.0 MBytes   142 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  6]   1.00-2.00   sec  3.40 MBytes  28.6 Mbits/sec                  
+[  8]   1.00-2.00   sec  4.34 MBytes  36.5 Mbits/sec                  
+[ 10]   1.00-2.00   sec  2.83 MBytes  23.7 Mbits/sec                  
+[ 12]   1.00-2.00   sec  2.03 MBytes  17.0 Mbits/sec                  
+[ 14]   1.00-2.00   sec  3.63 MBytes  30.5 Mbits/sec                  
+[ 16]   1.00-2.00   sec  4.10 MBytes  34.4 Mbits/sec                  
+[ 18]   1.00-2.00   sec  2.45 MBytes  20.6 Mbits/sec                  
+[ 20]   1.00-2.00   sec  3.48 MBytes  29.2 Mbits/sec                  
+[SUM]   1.00-2.00   sec  26.3 MBytes   220 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  6]   2.00-3.00   sec  4.38 MBytes  36.8 Mbits/sec                  
+[  8]   2.00-3.00   sec   490 KBytes  4.01 Mbits/sec                  
+[ 10]   2.00-3.00   sec  3.92 MBytes  32.9 Mbits/sec                  
+[ 12]   2.00-3.00   sec  3.60 MBytes  30.3 Mbits/sec                  
+[ 14]   2.00-3.00   sec   496 KBytes  4.07 Mbits/sec                  
+[ 16]   2.00-3.00   sec   558 KBytes  4.57 Mbits/sec                  
+[ 18]   2.00-3.00   sec  5.83 MBytes  49.0 Mbits/sec                  
+[ 20]   2.00-3.00   sec  4.84 MBytes  40.7 Mbits/sec                  
+[SUM]   2.00-3.00   sec  24.1 MBytes   202 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  6]   3.00-4.00   sec  5.52 MBytes  46.1 Mbits/sec                  
+[  8]   3.00-4.00   sec  5.37 KBytes  43.8 Kbits/sec                  
+[ 10]   3.00-4.00   sec  5.75 MBytes  48.1 Mbits/sec                  
+[ 12]   3.00-4.00   sec  3.29 MBytes  27.5 Mbits/sec                  
+[ 14]   3.00-4.00   sec   416 KBytes  3.40 Mbits/sec                  
+[ 16]   3.00-4.00   sec  5.37 KBytes  43.8 Kbits/sec                  
+[ 18]   3.00-4.00   sec  6.01 MBytes  50.2 Mbits/sec                  
+[ 20]   3.00-4.00   sec  5.20 MBytes  43.5 Mbits/sec                  
+[SUM]   3.00-4.00   sec  26.2 MBytes   219 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  6]   4.00-5.00   sec  4.16 MBytes  35.0 Mbits/sec                  
+[  8]   4.00-5.00   sec  6.71 KBytes  55.1 Kbits/sec                  
+[ 10]   4.00-5.00   sec  5.75 MBytes  48.4 Mbits/sec                  
+[ 12]   4.00-5.00   sec  4.80 MBytes  40.4 Mbits/sec                  
+[ 14]   4.00-5.00   sec   415 KBytes  3.40 Mbits/sec                  
+[ 16]   4.00-5.00   sec  9.39 KBytes  77.1 Kbits/sec                  
+[ 18]   4.00-5.00   sec  4.30 MBytes  36.2 Mbits/sec                  
+[ 20]   4.00-5.00   sec  6.19 MBytes  52.1 Mbits/sec                  
+[SUM]   4.00-5.00   sec  25.6 MBytes   216 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  6]   0.00-5.00   sec  19.8 MBytes  33.1 Mbits/sec                  sender
+[  6]   0.00-5.00   sec  18.8 MBytes  31.6 Mbits/sec                  receiver
+[  8]   0.00-5.00   sec  7.09 MBytes  11.9 Mbits/sec                  sender
+[  8]   0.00-5.00   sec  6.65 MBytes  11.2 Mbits/sec                  receiver
+[ 10]   0.00-5.00   sec  20.1 MBytes  33.8 Mbits/sec                  sender
+[ 10]   0.00-5.00   sec  20.1 MBytes  33.8 Mbits/sec                  receiver
+[ 12]   0.00-5.00   sec  15.4 MBytes  25.9 Mbits/sec                  sender
+[ 12]   0.00-5.00   sec  15.3 MBytes  25.6 Mbits/sec                  receiver
+[ 14]   0.00-5.00   sec  7.27 MBytes  12.2 Mbits/sec                  sender
+[ 14]   0.00-5.00   sec  6.97 MBytes  11.7 Mbits/sec                  receiver
+[ 16]   0.00-5.00   sec  7.02 MBytes  11.8 Mbits/sec                  sender
+[ 16]   0.00-5.00   sec  6.60 MBytes  11.1 Mbits/sec                  receiver
+[ 18]   0.00-5.00   sec  20.5 MBytes  34.3 Mbits/sec                  sender
+[ 18]   0.00-5.00   sec  19.5 MBytes  32.8 Mbits/sec                  receiver
+[ 20]   0.00-5.00   sec  21.9 MBytes  36.8 Mbits/sec                  sender
+[ 20]   0.00-5.00   sec  21.9 MBytes  36.8 Mbits/sec                  receiver
+[SUM]   0.00-5.00   sec   119 MBytes   200 Mbits/sec                  sender
+[SUM]   0.00-5.00   sec   116 MBytes   194 Mbits/sec                  receiver
+
+iperf Done.
+rc: [0] for command: [./iperf3 -c bouygues.testdebit.info -p 5202 -t 5 -P 8]
+Connecting to host bouygues.testdebit.info, port 5202
+[  6] local 10.9.65.13 port 49359 connected to 89.84.1.222 port 5202
+[  8] local 10.9.65.13 port 49360 connected to 89.84.1.222 port 5202
+[ 10] local 10.9.65.13 port 49361 connected to 89.84.1.222 port 5202
+[ 12] local 10.9.65.13 port 49362 connected to 89.84.1.222 port 5202
+[ 14] local 10.9.65.13 port 49363 connected to 89.84.1.222 port 5202
+[ 16] local 10.9.65.13 port 49364 connected to 89.84.1.222 port 5202
+[ 18] local 10.9.65.13 port 49365 connected to 89.84.1.222 port 5202
+[ 20] local 10.9.65.13 port 49366 connected to 89.84.1.222 port 5202
+[ 22] local 10.9.65.13 port 49367 connected to 89.84.1.222 port 5202
+[ ID] Interval           Transfer     Bandwidth
+[  6]   0.00-1.00   sec  2.00 MBytes  16.7 Mbits/sec                  
+[  8]   0.00-1.00   sec  1.37 MBytes  11.5 Mbits/sec                  
+[ 10]   0.00-1.00   sec  1.65 MBytes  13.8 Mbits/sec                  
+[ 12]   0.00-1.00   sec  1.46 MBytes  12.3 Mbits/sec                  
+[ 14]   0.00-1.00   sec  1.98 MBytes  16.6 Mbits/sec                  
+[ 16]   0.00-1.00   sec  1.77 MBytes  14.8 Mbits/sec                  
+[ 18]   0.00-1.00   sec  1.86 MBytes  15.6 Mbits/sec                  
+[ 20]   0.00-1.00   sec  2.37 MBytes  19.9 Mbits/sec                  
+[ 22]   0.00-1.00   sec   890 KBytes  7.29 Mbits/sec                  
+[SUM]   0.00-1.00   sec  15.3 MBytes   129 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  6]   1.00-2.00   sec  2.61 MBytes  21.9 Mbits/sec                  
+[  8]   1.00-2.00   sec  1.49 MBytes  12.5 Mbits/sec                  
+[ 10]   1.00-2.00   sec  1.47 MBytes  12.3 Mbits/sec                  
+[ 12]   1.00-2.00   sec  1.96 MBytes  16.4 Mbits/sec                  
+[ 14]   1.00-2.00   sec  1.68 MBytes  14.1 Mbits/sec                  
+[ 16]   1.00-2.00   sec  1.91 MBytes  16.0 Mbits/sec                  
+[ 18]   1.00-2.00   sec  1.52 MBytes  12.7 Mbits/sec                  
+[ 20]   1.00-2.00   sec  1.96 MBytes  16.4 Mbits/sec                  
+[ 22]   1.00-2.00   sec  1.10 MBytes  9.21 Mbits/sec                  
+[SUM]   1.00-2.00   sec  15.7 MBytes   132 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  6]   2.00-3.00   sec  8.27 MBytes  69.3 Mbits/sec                  
+[  8]   2.00-3.00   sec  0.00 Bytes  0.00 bits/sec                  
+[ 10]   2.00-3.00   sec   245 KBytes  2.01 Mbits/sec                  
+[ 12]   2.00-3.00   sec  7.28 MBytes  61.0 Mbits/sec                  
+[ 14]   2.00-3.00   sec  8.25 KBytes  67.6 Kbits/sec                  
+[ 16]   2.00-3.00   sec  0.00 Bytes  0.00 bits/sec                  
+[ 18]   2.00-3.00   sec  1.63 MBytes  13.7 Mbits/sec                  
+[ 20]   2.00-3.00   sec  10.8 KBytes  88.6 Kbits/sec                  
+[ 22]   2.00-3.00   sec   743 KBytes  6.08 Mbits/sec                  
+[SUM]   2.00-3.00   sec  18.2 MBytes   152 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  6]   3.00-4.00   sec  7.61 MBytes  63.7 Mbits/sec                  
+[  8]   3.00-4.00   sec  0.00 Bytes  0.00 bits/sec                  
+[ 10]   3.00-4.00   sec  1.02 MBytes  8.53 Mbits/sec                  
+[ 12]   3.00-4.00   sec  7.14 MBytes  59.8 Mbits/sec                  
+[ 14]   3.00-4.00   sec  5.37 KBytes  43.9 Kbits/sec                  
+[ 16]   3.00-4.00   sec  0.00 Bytes  0.00 bits/sec                  
+[ 18]   3.00-4.00   sec  6.31 MBytes  52.9 Mbits/sec                  
+[ 20]   3.00-4.00   sec  5.37 KBytes  43.9 Kbits/sec                  
+[ 22]   3.00-4.00   sec  4.21 MBytes  35.2 Mbits/sec                  
+[SUM]   3.00-4.00   sec  26.3 MBytes   220 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  6]   4.00-5.00   sec  6.25 MBytes  52.5 Mbits/sec                  
+[  8]   4.00-5.00   sec  0.00 Bytes  0.00 bits/sec                  
+[ 10]   4.00-5.00   sec  2.41 MBytes  20.3 Mbits/sec                  
+[ 12]   4.00-5.00   sec  6.16 MBytes  51.8 Mbits/sec                  
+[ 14]   4.00-5.00   sec  2.68 KBytes  22.0 Kbits/sec                  
+[ 16]   4.00-5.00   sec  0.00 Bytes  0.00 bits/sec                  
+[ 18]   4.00-5.00   sec  5.89 MBytes  49.5 Mbits/sec                  
+[ 20]   4.00-5.00   sec  2.68 KBytes  22.0 Kbits/sec                  
+[ 22]   4.00-5.00   sec  4.01 MBytes  33.7 Mbits/sec                  
+[SUM]   4.00-5.00   sec  24.7 MBytes   208 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  6]   0.00-5.00   sec  26.7 MBytes  44.9 Mbits/sec                  sender
+[  6]   0.00-5.00   sec  26.7 MBytes  44.9 Mbits/sec                  receiver
+[  8]   0.00-5.00   sec  2.86 MBytes  4.80 Mbits/sec                  sender
+[  8]   0.00-5.00   sec  1.97 MBytes  3.31 Mbits/sec                  receiver
+[ 10]   0.00-5.00   sec  6.79 MBytes  11.4 Mbits/sec                  sender
+[ 10]   0.00-5.00   sec  6.40 MBytes  10.7 Mbits/sec                  receiver
+[ 12]   0.00-5.00   sec  24.0 MBytes  40.3 Mbits/sec                  sender
+[ 12]   0.00-5.00   sec  24.0 MBytes  40.3 Mbits/sec                  receiver
+[ 14]   0.00-5.00   sec  3.68 MBytes  6.17 Mbits/sec                  sender
+[ 14]   0.00-5.00   sec  2.93 MBytes  4.91 Mbits/sec                  receiver
+[ 16]   0.00-5.00   sec  3.68 MBytes  6.17 Mbits/sec                  sender
+[ 16]   0.00-5.00   sec  2.75 MBytes  4.61 Mbits/sec                  receiver
+[ 18]   0.00-5.00   sec  17.2 MBytes  28.9 Mbits/sec                  sender
+[ 18]   0.00-5.00   sec  17.2 MBytes  28.9 Mbits/sec                  receiver
+[ 20]   0.00-5.00   sec  4.35 MBytes  7.29 Mbits/sec                  sender
+[ 20]   0.00-5.00   sec  3.46 MBytes  5.80 Mbits/sec                  receiver
+[ 22]   0.00-5.00   sec  10.9 MBytes  18.3 Mbits/sec                  sender
+[ 22]   0.00-5.00   sec  10.8 MBytes  18.2 Mbits/sec                  receiver
+[SUM]   0.00-5.00   sec   100 MBytes   168 Mbits/sec                  sender
+[SUM]   0.00-5.00   sec  96.3 MBytes   161 Mbits/sec                  receiver
+
+iperf Done.
+rc: [0] for command: [./iperf3 -c bouygues.testdebit.info -p 5202 -t 5 -P 9]
+Connecting to host bouygues.testdebit.info, port 5202
+[  6] local 10.9.65.13 port 49369 connected to 89.84.1.222 port 5202
+[  8] local 10.9.65.13 port 49370 connected to 89.84.1.222 port 5202
+[ 10] local 10.9.65.13 port 49371 connected to 89.84.1.222 port 5202
+[ 12] local 10.9.65.13 port 49372 connected to 89.84.1.222 port 5202
+[ 14] local 10.9.65.13 port 49373 connected to 89.84.1.222 port 5202
+[ 16] local 10.9.65.13 port 49374 connected to 89.84.1.222 port 5202
+[ 18] local 10.9.65.13 port 49375 connected to 89.84.1.222 port 5202
+[ 20] local 10.9.65.13 port 49376 connected to 89.84.1.222 port 5202
+[ 22] local 10.9.65.13 port 49377 connected to 89.84.1.222 port 5202
+[ 24] local 10.9.65.13 port 49378 connected to 89.84.1.222 port 5202
+[ ID] Interval           Transfer     Bandwidth
+[  6]   0.00-1.00   sec  2.27 MBytes  19.1 Mbits/sec                  
+[  8]   0.00-1.00   sec  1.82 MBytes  15.2 Mbits/sec                  
+[ 10]   0.00-1.00   sec  2.00 MBytes  16.7 Mbits/sec                  
+[ 12]   0.00-1.00   sec  1.91 MBytes  16.0 Mbits/sec                  
+[ 14]   0.00-1.00   sec  1.92 MBytes  16.1 Mbits/sec                  
+[ 16]   0.00-1.00   sec  2.65 MBytes  22.2 Mbits/sec                  
+[ 18]   0.00-1.00   sec  1.36 MBytes  11.4 Mbits/sec                  
+[ 20]   0.00-1.00   sec  1.11 MBytes  9.26 Mbits/sec                  
+[ 22]   0.00-1.00   sec  1.48 MBytes  12.4 Mbits/sec                  
+[ 24]   0.00-1.00   sec  1.04 MBytes  8.73 Mbits/sec                  
+[SUM]   0.00-1.00   sec  17.6 MBytes   147 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  6]   1.00-2.00   sec  3.10 MBytes  26.1 Mbits/sec                  
+[  8]   1.00-2.00   sec  2.81 MBytes  23.6 Mbits/sec                  
+[ 10]   1.00-2.00   sec  3.57 MBytes  30.0 Mbits/sec                  
+[ 12]   1.00-2.00   sec  4.62 MBytes  38.8 Mbits/sec                  
+[ 14]   1.00-2.00   sec  2.76 MBytes  23.1 Mbits/sec                  
+[ 16]   1.00-2.00   sec  3.31 MBytes  27.8 Mbits/sec                  
+[ 18]   1.00-2.00   sec  2.25 MBytes  18.9 Mbits/sec                  
+[ 20]   1.00-2.00   sec  1.60 MBytes  13.4 Mbits/sec                  
+[ 22]   1.00-2.00   sec  1.11 MBytes  9.33 Mbits/sec                  
+[ 24]   1.00-2.00   sec  1.99 MBytes  16.7 Mbits/sec                  
+[SUM]   1.00-2.00   sec  27.1 MBytes   228 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  6]   2.00-3.00   sec  1.94 MBytes  16.2 Mbits/sec                  
+[  8]   2.00-3.00   sec  1.38 MBytes  11.6 Mbits/sec                  
+[ 10]   2.00-3.00   sec  2.25 MBytes  18.8 Mbits/sec                  
+[ 12]   2.00-3.00   sec  2.42 MBytes  20.3 Mbits/sec                  
+[ 14]   2.00-3.00   sec  1.62 MBytes  13.6 Mbits/sec                  
+[ 16]   2.00-3.00   sec  2.22 MBytes  18.6 Mbits/sec                  
+[ 18]   2.00-3.00   sec  2.06 MBytes  17.3 Mbits/sec                  
+[ 20]   2.00-3.00   sec  2.30 MBytes  19.3 Mbits/sec                  
+[ 22]   2.00-3.00   sec   477 KBytes  3.90 Mbits/sec                  
+[ 24]   2.00-3.00   sec  2.27 MBytes  19.0 Mbits/sec                  
+[SUM]   2.00-3.00   sec  18.9 MBytes   159 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  6]   3.00-4.00   sec   153 KBytes  1.26 Mbits/sec                  
+[  8]   3.00-4.00   sec  5.81 MBytes  48.7 Mbits/sec                  
+[ 10]   3.00-4.00   sec  2.58 KBytes  21.2 Kbits/sec                  
+[ 12]   3.00-4.00   sec   165 KBytes  1.36 Mbits/sec                  
+[ 14]   3.00-4.00   sec  3.95 MBytes  33.2 Mbits/sec                  
+[ 16]   3.00-4.00   sec  0.00 Bytes  0.00 bits/sec                  
+[ 18]   3.00-4.00   sec   182 KBytes  1.50 Mbits/sec                  
+[ 20]   3.00-4.00   sec   846 KBytes  6.93 Mbits/sec                  
+[ 22]   3.00-4.00   sec   300 KBytes  2.46 Mbits/sec                  
+[ 24]   3.00-4.00   sec  0.00 Bytes  0.00 bits/sec                  
+[SUM]   3.00-4.00   sec  11.4 MBytes  95.4 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  6]   4.00-5.00   sec  2.91 MBytes  24.4 Mbits/sec                  
+[  8]   4.00-5.00   sec  5.34 MBytes  44.7 Mbits/sec                  
+[ 10]   4.00-5.00   sec  3.29 KBytes  26.9 Kbits/sec                  
+[ 12]   4.00-5.00   sec  30.9 KBytes   252 Kbits/sec                  
+[ 14]   4.00-5.00   sec  2.66 MBytes  22.3 Mbits/sec                  
+[ 16]   4.00-5.00   sec  2.11 MBytes  17.7 Mbits/sec                  
+[ 18]   4.00-5.00   sec  5.37 KBytes  43.9 Kbits/sec                  
+[ 20]   4.00-5.00   sec  3.43 MBytes  28.7 Mbits/sec                  
+[ 22]   4.00-5.00   sec  2.32 MBytes  19.4 Mbits/sec                  
+[ 24]   4.00-5.00   sec   192 KBytes  1.57 Mbits/sec                  
+[SUM]   4.00-5.00   sec  19.0 MBytes   159 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  6]   0.00-5.00   sec  10.4 MBytes  17.4 Mbits/sec                  sender
+[  6]   0.00-5.00   sec  9.93 MBytes  16.6 Mbits/sec                  receiver
+[  8]   0.00-5.00   sec  17.2 MBytes  28.8 Mbits/sec                  sender
+[  8]   0.00-5.00   sec  17.0 MBytes  28.6 Mbits/sec                  receiver
+[ 10]   0.00-5.00   sec  7.82 MBytes  13.1 Mbits/sec                  sender
+[ 10]   0.00-5.00   sec  7.03 MBytes  11.8 Mbits/sec                  receiver
+[ 12]   0.00-5.00   sec  9.14 MBytes  15.3 Mbits/sec                  sender
+[ 12]   0.00-5.00   sec  8.38 MBytes  14.1 Mbits/sec                  receiver
+[ 14]   0.00-5.00   sec  12.9 MBytes  21.7 Mbits/sec                  sender
+[ 14]   0.00-5.00   sec  12.4 MBytes  20.8 Mbits/sec                  receiver
+[ 16]   0.00-5.00   sec  10.3 MBytes  17.3 Mbits/sec                  sender
+[ 16]   0.00-5.00   sec  9.87 MBytes  16.5 Mbits/sec                  receiver
+[ 18]   0.00-5.00   sec  5.86 MBytes  9.82 Mbits/sec                  sender
+[ 18]   0.00-5.00   sec  4.86 MBytes  8.15 Mbits/sec                  receiver
+[ 20]   0.00-5.00   sec  9.25 MBytes  15.5 Mbits/sec                  sender
+[ 20]   0.00-5.00   sec  9.07 MBytes  15.2 Mbits/sec                  receiver
+[ 22]   0.00-5.00   sec  5.67 MBytes  9.51 Mbits/sec                  sender
+[ 22]   0.00-5.00   sec  5.34 MBytes  8.95 Mbits/sec                  receiver
+[ 24]   0.00-5.00   sec  5.49 MBytes  9.21 Mbits/sec                  sender
+[ 24]   0.00-5.00   sec  4.78 MBytes  8.02 Mbits/sec                  receiver
+[SUM]   0.00-5.00   sec  94.0 MBytes   158 Mbits/sec                  sender
+[SUM]   0.00-5.00   sec  88.7 MBytes   149 Mbits/sec                  receiver
+
+iperf Done.
+rc: [0] for command: [./iperf3 -c bouygues.testdebit.info -p 5202 -t 5 -P 10]
