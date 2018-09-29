@@ -34,7 +34,7 @@ def run_iperf(parallel, hostname, port=5201, time=5):
     return rc
 
 
-def run_ping(hostname, ping_count=10):
+def run_ping(hostname, ping_count=5):
 
     """ Runs ping command to retrieve RTT.
 
@@ -60,23 +60,29 @@ def run_ping(hostname, ping_count=10):
 
 def main():
 
-    parser = argparse.ArgumentParser(description="Runs iperf3 multiple times")
+    parser = argparse.ArgumentParser(description="Bandwidth vs rtt.")
     parser.add_argument("--port", "-p", type=int, default=5201,
             help="port to which to connect.")
-    parser.add_argument("--max_parallel", "-P", type=int, required=True,
-            help="max number of parallel connections.")
-    parser.add_argument("--min_parallel", "-n", type=int, default=1,
-            help="min number of parallel connections.")
     args = parser.parse_args()
 
     hosts = ["bouygues.iperf.fr", # France
             "iperf.biznetnetworks.com", # Indonesia
-            "iperf.scottlinux.com" # USA
+            "iperf.scottlinux.com", # USA
+            "iperf.volia.net", # Ukraine
+            "iperf.it-north.net" # Kazakhstan
             ]
 
 
-    for parallel_connections in range(args.min_parallel, args.max_parallel + 1):
-        run_iperf(parallel_connections, port=args.port)
+    for host in hosts:
+        # determine bandwidth
+        port = args.port
+        while (0 != run_iperf(1, host, port=port)):
+            print ("iperf failed with port: [%d], retrying with port [%d]" 
+                    % (port, port + 1))
+            port = port + 1
+
+        # determine rtt
+        run_ping(host)
 
     return 0;
 

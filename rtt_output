@@ -1,0 +1,133 @@
+Connecting to host bouygues.iperf.fr, port 5201
+[  6] local 10.9.65.13 port 55053 connected to 89.84.1.222 port 5201
+[ ID] Interval           Transfer     Bandwidth
+[  6]   0.00-1.00   sec  4.37 MBytes  36.6 Mbits/sec                  
+[  6]   1.00-2.00   sec  12.2 MBytes   103 Mbits/sec                  
+[  6]   2.00-3.00   sec  12.4 MBytes   104 Mbits/sec                  
+[  6]   3.00-4.00   sec  12.4 MBytes   104 Mbits/sec                  
+[  6]   4.00-5.00   sec  12.4 MBytes   104 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  6]   0.00-5.00   sec  53.8 MBytes  90.3 Mbits/sec                  sender
+[  6]   0.00-5.00   sec  53.8 MBytes  90.2 Mbits/sec                  receiver
+
+iperf Done.
+rc: [0] for command: [./iperf3 -c bouygues.iperf.fr -p 5201 -t 5 -P 1]
+PING bouygues.iperf.fr (89.84.1.222): 56 data bytes
+64 bytes from 89.84.1.222: icmp_seq=0 ttl=55 time=78.086 ms
+64 bytes from 89.84.1.222: icmp_seq=1 ttl=55 time=78.523 ms
+64 bytes from 89.84.1.222: icmp_seq=2 ttl=55 time=80.516 ms
+64 bytes from 89.84.1.222: icmp_seq=3 ttl=55 time=78.482 ms
+64 bytes from 89.84.1.222: icmp_seq=4 ttl=55 time=78.774 ms
+
+--- bouygues.iperf.fr ping statistics ---
+5 packets transmitted, 5 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 78.086/78.876/80.516/0.849 ms
+rc: [0] for command: [ping -c 5 bouygues.iperf.fr]
+Connecting to host iperf.biznetnetworks.com, port 5201
+[  6] local 10.9.65.13 port 55055 connected to 117.102.109.186 port 5201
+[ ID] Interval           Transfer     Bandwidth
+[  6]   0.00-1.00   sec   140 KBytes  1.14 Mbits/sec                  
+[  6]   1.00-2.01   sec  93.9 KBytes   766 Kbits/sec                  
+[  6]   2.01-3.01   sec   284 KBytes  2.33 Mbits/sec                  
+[  6]   3.01-4.00   sec  1.64 MBytes  13.8 Mbits/sec                  
+[  6]   4.00-5.00   sec  2.63 MBytes  22.1 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  6]   0.00-5.00   sec  4.77 MBytes  8.01 Mbits/sec                  sender
+[  6]   0.00-5.00   sec  4.77 MBytes  8.01 Mbits/sec                  receiver
+
+iperf Done.
+rc: [0] for command: [./iperf3 -c iperf.biznetnetworks.com -p 5201 -t 5 -P 1]
+PING iperf.biznetnetworks.com (117.102.109.186): 56 data bytes
+64 bytes from 117.102.109.186: icmp_seq=0 ttl=52 time=297.191 ms
+64 bytes from 117.102.109.186: icmp_seq=1 ttl=52 time=316.600 ms
+64 bytes from 117.102.109.186: icmp_seq=2 ttl=52 time=338.192 ms
+64 bytes from 117.102.109.186: icmp_seq=3 ttl=52 time=258.879 ms
+64 bytes from 117.102.109.186: icmp_seq=4 ttl=52 time=280.651 ms
+
+--- iperf.biznetnetworks.com ping statistics ---
+5 packets transmitted, 5 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 258.879/298.303/338.192/27.543 ms
+rc: [0] for command: [ping -c 5 iperf.biznetnetworks.com]
+Connecting to host iperf.scottlinux.com, port 5201
+[  6] local 10.9.65.13 port 55059 connected to 45.33.39.39 port 5201
+[ ID] Interval           Transfer     Bandwidth
+[  6]   0.00-1.00   sec  4.43 MBytes  37.2 Mbits/sec                  
+[  6]   1.00-2.00   sec  14.1 MBytes   118 Mbits/sec                  
+[  6]   2.00-3.00   sec  13.8 MBytes   116 Mbits/sec                  
+[  6]   3.00-4.00   sec  14.1 MBytes   118 Mbits/sec                  
+[  6]   4.00-5.00   sec  13.7 MBytes   115 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  6]   0.00-5.00   sec  60.1 MBytes   101 Mbits/sec                  sender
+[  6]   0.00-5.00   sec  60.1 MBytes   101 Mbits/sec                  receiver
+
+iperf Done.
+rc: [0] for command: [./iperf3 -c iperf.scottlinux.com -p 5201 -t 5 -P 1]
+PING iperf.scottlinux.com (45.33.39.39): 56 data bytes
+64 bytes from 45.33.39.39: icmp_seq=0 ttl=55 time=67.763 ms
+64 bytes from 45.33.39.39: icmp_seq=1 ttl=55 time=68.489 ms
+64 bytes from 45.33.39.39: icmp_seq=2 ttl=55 time=70.127 ms
+64 bytes from 45.33.39.39: icmp_seq=3 ttl=55 time=68.448 ms
+64 bytes from 45.33.39.39: icmp_seq=4 ttl=55 time=68.712 ms
+
+--- iperf.scottlinux.com ping statistics ---
+5 packets transmitted, 5 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 67.763/68.708/70.127/0.777 ms
+rc: [0] for command: [ping -c 5 iperf.scottlinux.com]
+Connecting to host iperf.volia.net, port 5201
+[  5] local 10.9.65.13 port 55061 connected to 82.144.193.18 port 5201
+[ ID] Interval           Transfer     Bandwidth
+[  5]   0.00-1.00   sec  1.07 MBytes  8.98 Mbits/sec                  
+[  5]   1.00-2.00   sec  7.37 MBytes  62.0 Mbits/sec                  
+[  5]   2.00-3.00   sec  7.60 MBytes  63.7 Mbits/sec                  
+[  5]   3.00-4.01   sec  2.69 MBytes  22.5 Mbits/sec                  
+[  5]   4.01-5.00   sec  5.19 MBytes  43.7 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  5]   0.00-5.00   sec  23.9 MBytes  40.1 Mbits/sec                  sender
+[  5]   0.00-5.00   sec  23.6 MBytes  39.6 Mbits/sec                  receiver
+
+iperf Done.
+rc: [0] for command: [./iperf3 -c iperf.volia.net -p 5201 -t 5 -P 1]
+PING speedtest.volia.net (82.144.193.18): 56 data bytes
+64 bytes from 82.144.193.18: icmp_seq=0 ttl=52 time=122.005 ms
+64 bytes from 82.144.193.18: icmp_seq=1 ttl=52 time=121.301 ms
+64 bytes from 82.144.193.18: icmp_seq=2 ttl=52 time=120.782 ms
+64 bytes from 82.144.193.18: icmp_seq=3 ttl=52 time=120.583 ms
+64 bytes from 82.144.193.18: icmp_seq=4 ttl=52 time=121.399 ms
+
+--- speedtest.volia.net ping statistics ---
+5 packets transmitted, 5 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 120.583/121.214/122.005/0.500 ms
+rc: [0] for command: [ping -c 5 iperf.volia.net]
+iperf3: error - the server is busy running a test. try again later
+rc: [1] for command: [./iperf3 -c iperf.it-north.net -p 5201 -t 5 -P 1]
+Connecting to host iperf.it-north.net, port 5202
+[  5] local 10.9.65.13 port 55064 connected to 82.200.209.194 port 5202
+[ ID] Interval           Transfer     Bandwidth
+[  5]   0.00-1.00   sec   334 KBytes  2.73 Mbits/sec                  
+[  5]   1.00-2.00   sec  3.00 MBytes  25.2 Mbits/sec                  
+[  5]   2.00-3.00   sec  5.94 MBytes  49.8 Mbits/sec                  
+[  5]   3.00-4.00   sec  6.03 MBytes  50.6 Mbits/sec                  
+[  5]   4.00-5.00   sec  5.98 MBytes  50.2 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  5]   0.00-5.00   sec  21.3 MBytes  35.7 Mbits/sec                  sender
+[  5]   0.00-5.00   sec  21.3 MBytes  35.7 Mbits/sec                  receiver
+
+iperf Done.
+iperf failed with port: [5201], retrying with port [5202]
+rc: [0] for command: [./iperf3 -c iperf.it-north.net -p 5202 -t 5 -P 1]
+PING iperf.it-north.net (82.200.209.194): 56 data bytes
+64 bytes from 82.200.209.194: icmp_seq=0 ttl=52 time=165.972 ms
+64 bytes from 82.200.209.194: icmp_seq=1 ttl=52 time=164.713 ms
+64 bytes from 82.200.209.194: icmp_seq=2 ttl=52 time=164.905 ms
+64 bytes from 82.200.209.194: icmp_seq=3 ttl=52 time=164.528 ms
+64 bytes from 82.200.209.194: icmp_seq=4 ttl=52 time=166.138 ms
+
+--- iperf.it-north.net ping statistics ---
+5 packets transmitted, 5 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 164.528/165.251/166.138/0.669 ms
+rc: [0] for command: [ping -c 5 iperf.it-north.net]
