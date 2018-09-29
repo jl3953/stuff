@@ -60,13 +60,11 @@ def main():
     args = parser.parse_args()
 
     for parallel_connections in range(args.min_parallel, args.max_parallel + 1):
-        port = args.port
-        while ( 0 != run_iperf(parallel_connections, port=port)):
+        if  0 != run_iperf(parallel_connections, port=args.port):
             # retry on failure, assuming port connection failure.
-            print ("iperf failed on port: [%d], re-trying on port: [%d]" 
-                    % (port, port + 1))
-            sys.stdout.flush()
-            port = port + 1
+            sys.stderr.write("iperf failed on port: [%d]\n" % args.port)
+            sys.stderr.flush()
+            return -1
 
     return 0;
 
