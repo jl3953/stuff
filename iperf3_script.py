@@ -6,8 +6,11 @@ This script takes in parameters (port, minimum number of parallel connections,
 maximum number of parallel connections) and runs the iperf command multiple
 times with min_parallel_connections to max_parallel_connections.
 
-For the specific commands run for this assignment, please refer to the
-bottom of this script.
+For the specific commands run that this script simulated for this assignment,
+please refer to the bottom of this script.
+
+Run the script:
+    ./iperf3_script.py -P 20
 
 """
 

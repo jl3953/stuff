@@ -1,5 +1,15 @@
 #!/usr/bin/python2.7
 
+""" This script obtains bandwidth by running iperf3 and RTT by running ping.
+
+For a full list of commands that this script simulated for this assignment,
+please refer to the bottom of the script.
+
+Run this script:
+    ./rtt_script.py
+
+"""
+
 import argparse
 import subprocess
 import sys
@@ -40,7 +50,7 @@ def run_ping(hostname, ping_count=5):
 
     Args:
         hostname (str): host to ping.
-        ping_count (int): number of times to ping. Default=10.
+        ping_count (int): number of times to ping. Default=5.
 
     Returns:
         Return code (int) of subprocess.call command.
@@ -76,10 +86,7 @@ def main():
     for host in hosts:
         # determine bandwidth
         port = args.port
-        while (0 != run_iperf(1, host, port=port)):
-            print ("iperf failed with port: [%d], retrying with port [%d]" 
-                    % (port, port + 1))
-            port = port + 1
+        run_iperf(1, host, port=args.port)
 
         # determine rtt
         run_ping(host)
@@ -90,3 +97,18 @@ def main():
 if __name__ == "__main__":
     sys.exit(main())
 
+
+""" Commands that this script ran for the assignment:
+
+./iperf3 -c bouygues.iperf.fr -p 5201 -t 5 -P 1
+ping -c 5 bouygues.iperf.fr 
+./iperf3 -c iperf.biznetnetworks.com -p 5201 -t 5 -P 1
+ping -c 5 iperf.biznetnetworks.com
+./iperf3 -c iperf.scottlinux.com -p 5201 -t 5 -P 1
+ping -c 5 iperf.scottlinux.com
+./iperf3 -c iperf.volia.net -p 5201 -t 5 -P 1
+ping -c 5 iperf.volia.net
+./iperf3 -c iperf.it-north.net -p 5201 -t 5 -P 1
+ping -c 5 iperf.it-north.net
+
+"""
